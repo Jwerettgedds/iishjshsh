@@ -21,7 +21,7 @@ const { v4: uuidv4 } = require("uuid")
 // 2. Konfigurasi
 // -----------------------------------------------------------
 const PORT = process.env.PORT || 8999
-const JWT_SECRET = process.env.JWT_SECRET || "your-secret-key-here"
+const JWT_SECRET = process.env.JWT_SECRET || "i8BFE4/g8JALYLaVWaf6d2QgfS7v5A2dTo5u2QUFmqo="
 const ADMIN_USERNAME = process.env.ADMIN_USERNAME || "admin"
 const ADMIN_PASSWORD = process.env.ADMIN_PASSWORD || "admin123"
 const ADMIN_PASSWORD_HASH = bcrypt.hashSync(ADMIN_PASSWORD, 10) // Hash password saat startup
